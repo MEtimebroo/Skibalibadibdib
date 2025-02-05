@@ -2,8 +2,9 @@ body {
     display: flex;
     font-family: "Papyrus", sans-serif;
     background-image: url("https://cdn.mos.cms.futurecdn.net/tv4A6KsVocJQZRPReyPXWU-1200-80.jpg");
-    background-size: cover;
+    background-size: cover, 100vh;
     background-repeat: no-repeat;
+    background-position: center;
     text-align: center;
     color: whitesmoke;
     flex-direction: column;
