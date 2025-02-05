@@ -1,7 +1,24 @@
-const play = document.getElementById("play-button");
+const play = document.getElementById("log");
+const sign = document.getElementById("no-log");
+const span = document.getElementById("span");
+const user = document.getElementById("user");
+const pass = document.getElementById("pass");
+let userValue = user.value;
+let passValue = pass.value;
 
 play.addEventListener('click', function() {
     location.href = "play-screen.html";
+    console.log(userValue, passValue);
+})
+
+sign.addEventListener('click', function() {
+    span.innerText = "Sign Up";
+})
+
+pass.addEventListener("keyup", function(event) {
+    if (event.key === "Enter") {
+        location.href = "play-screen.html";
+    }
 })
 
 function checkBackgroundImage() {
