@@ -25,9 +25,9 @@ let fiveInt = [];
 let thouInt = [];
 let twelInt = [];
 
-if (performance.navigation.type === performance.navigation.TYPE_RELOAD) {
+/*if (performance.navigation.type === performance.navigation.TYPE_RELOAD) {
     location.href = "https://metimebroo.github.io/Skibalibadibdib/";
-}
+}*/
 
 function checkBackgroundImage() {
     const testImage = new Image();
@@ -84,6 +84,11 @@ function confirmReset() {
     } else {
         alert("Not resetting.");
     }
+}
+
+function updateScoreDisplay(score) {
+    document.getElementById("score").innerText = score;
+    document.getElementById("score").style.color = score >= 1000 ? "gold" : "darkslategray";
 }
 
 function updateButtons() {
