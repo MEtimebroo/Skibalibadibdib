@@ -158,6 +158,10 @@ h2 {
         justify-content: flex-start;
     }
 
+    #header {
+        height: 20%;
+    }
+
     #reset-div {
         bottom: 0;
         margin-top: auto;
