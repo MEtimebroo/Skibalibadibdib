@@ -13,6 +13,7 @@ play.addEventListener('click', function() {
 
 sign.addEventListener('click', function() {
     span.innerText = "Sign Up";
+    sign.style.display = "none";
 })
 
 pass.addEventListener("keyup", function(event) {
