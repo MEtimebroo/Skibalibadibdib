@@ -25,9 +25,9 @@ let fiveInt = [];
 let thouInt = [];
 let twelInt = [];
 
-/*if (performance.navigation.type === performance.navigation.TYPE_RELOAD) {
+if (performance.navigation.type === performance.navigation.TYPE_RELOAD) {
     location.href = "https://metimebroo.github.io/Skibalibadibdib/";
-}*/
+}
 
 function checkBackgroundImage() {
     const testImage = new Image();
