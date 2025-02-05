@@ -3,6 +3,7 @@ const sign = document.getElementById("no-log");
 const span = document.getElementById("span");
 const user = document.getElementById("user");
 const pass = document.getElementById("pass");
+const span1 = document.getElementById("span-1");
 let userValue = user.value;
 let passValue = pass.value;
 
@@ -14,6 +15,7 @@ play.addEventListener('click', function() {
 sign.addEventListener('click', function() {
     span.innerText = "Sign Up";
     sign.style.display = "none";
+    span1.innerText = "Sign Up";
 })
 
 pass.addEventListener("keyup", function(event) {
