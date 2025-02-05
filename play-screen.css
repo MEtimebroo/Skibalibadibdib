@@ -5,19 +5,20 @@ body {
     flex-direction: column;
     align-items: center;
     color: darkslategray;
-    padding-top: 150px;
+    padding-top: 10vh;
 }
 
 .button {
     background-color: transparent;
     color: darkslategray;
     border: 0;
-    margin-top: 25px;
+    margin-top: 2.5vh;
     margin-bottom: auto;
 }
 
 h2 {
-    margin-top: 30px;
+    font-size: 4vh;
+    margin-top: 5vh;
 }
 
 #header {
@@ -29,7 +30,7 @@ h2 {
     border-bottom: 2px solid whitesmoke;
     color: darkslategray;
     text-align: center;
-    height: 15%;
+    height: 5vh;
 }
 
 #upgrades-1 {
@@ -37,15 +38,15 @@ h2 {
     height: 100%;
     left: 0;
     top: 0;
-    position: absolute;
     background-color: blanchedalmond;
     border: 2px solid whitesmoke;
     display: block;
-    width: 400px;
+    width: 40vw;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 40px;
+    padding-top: 5vh;
+    min-width: 250px;
 }
 
 #upgrades-2 {
@@ -53,15 +54,15 @@ h2 {
     height: 100%;
     right: 0;
     top: 0;
-    position: absolute;
     background-color: blanchedalmond;
     border: 2px solid whitesmoke;
     display: block;
-    width: 400px;
+    width: 40vw;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 40px;
+    padding-top: 5vh;
+    min-width: 250px;
 }
 
 #reset-div {
@@ -71,14 +72,14 @@ h2 {
     background-color: blanchedalmond;
     border-top: 2px solid whitesmoke;
     bottom: 0;
-    padding-bottom: 20px;
-    height: 40px;
+    padding-bottom: 2vh;
+    height: 4vh;
 }
 
 .buttons {
     background-color: transparent;
     border: 0;
-    margin-top: 20px;
+    margin-top: 2vh;
     transition: transform 0.3s ease;
 }
 
@@ -87,42 +88,42 @@ h2 {
 }
 
 #plus-img {
-    width: 25%;
-    height: 25%;
+    width: 25vw;
+    height: 25vh;
 }
 
 #plus-1 {
-    margin-top: 50px;
+    margin-top: 5vh;
 }
 
 #ten-img {
-    height: 100px;
-    width: 50px;
+    height: 10vh;
+    width: auto;
 }
 
 #thirty-img {
-    height: 100px;
-    width: 50px;
+    height: 10vh;
+    width: auto;
 }
 
 #eighty-img {
-    height: 100px;
-    width: 50px;
+    height: 10vh;
+    width: auto;
 }
 
 #two-img {
-    height: 100px;
-    width: 100px;
+    height: 10vh;
+    width: auto;
 }
 
 #five-img {
-    height: 100px;
-    width: 50px;
+    height: 10vh;
+    width: auto;
 }
 
 #thou-img {
-    height: 100px;
-    width: 50px;
+    height: 10vh;
+    width: auto;
 }
 
 #score {
@@ -133,7 +134,7 @@ h2 {
     #upgrades-1 {
         display: flex;
         position: relative;
-        height: 100px;
+        height: 10vh;
         width: 100%;
         flex-direction: row;
         left: 0;
@@ -141,14 +142,10 @@ h2 {
         justify-content: center;
     }
 
-    h2 {
-        margin-top: 80px;
-    }
-
     #upgrades-2 {
         display: flex;
         position: relative;
-        height: 160px;
+        height: 16vh;
         width: 100%;
         bottom: 0;
         left: 0;
@@ -159,7 +156,7 @@ h2 {
     }
 
     #header {
-        height: 20%;
+        height: 2vh;
     }
 
     #reset-div {
@@ -173,69 +170,69 @@ h2 {
     }
 
     #reset {
-        padding-bottom: 25px;
+        padding-bottom: 2.5vh;
     }
 
     .deets {
-        margin-bottom: 80px;
+        margin-bottom: 8vh;
     }
 
     .buttons {
-        margin-bottom: 60px;
+        margin-bottom: 6vh;
     }
 
     #plus-img {
-        height: 30%;
-        width: 30%;
+        height: 30vh;
+        width: 30vw;
     }
 
     #ten-img {
-        height: 75px;
-        width: 50px;
+        height: 7.5vh;
+        width: 5vw;
     }
 
     #thirty-img {
-        height: 75px;
-        width: 50px;
+        height: 7.5vh;
+        width: 5vw;
     }
 
     #eighty-img {
-        height: 75px;
-        width: 50px;
+        height: 7.5vh;
+        width: 5vw;
     }
 
     #two-img {
-        height: 75px;
-        width: 50px;
-        margin-bottom: 50px;
+        height: 7.5vh;
+        width: 5vw;
+        margin-bottom: 5vh;
     }
 
     #five-img {
-        height: 75px;
-        width: 50px;
-        margin-bottom: 50px;
+        height: 7.5vh;
+        width: 5vw;
+        margin-bottom: 5vh;
     }
 
     #thou-img {
-        height: 75px;
-        width: 50px;
-        margin-bottom: 50px;
+        height: 7.5vh;
+        width: 5vw;
+        margin-bottom: 5vh;
     }
     
     #plus-1 {
-        margin-top: 50px;
+        margin-top: 5vh;
         justify-self: center;
     }
 
     body {
-        padding-top: 50px;
+        padding-top: 5vh;
     }
 
     h3 {
         display: flex;
-        font-size: 0.6rem;
-        margin-bottom: 20px;
-        margin-top: 20px;
+        font-size: 2vw;
+        margin-bottom: 2vh;
+        margin-top: 2vh;
         justify-content: center;
     }
 }
