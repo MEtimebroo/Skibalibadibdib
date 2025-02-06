@@ -135,6 +135,10 @@ h2 {
 }
 
 @media (max-width: 768px) {
+    #upgrades-1, upgrades-2 {
+        min-height: auto;
+    }
+    
     #upgrades-1 {
         display: flex;
         position: relative;
