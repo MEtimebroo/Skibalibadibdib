@@ -33,6 +33,10 @@ h2 {
     height: 15vh;
 }
 
+#upgrades-1, upgrades-2 {
+    min-height: 100vh;
+}
+
 #upgrades-1 {
     position: absolute;
     height: 100%;
