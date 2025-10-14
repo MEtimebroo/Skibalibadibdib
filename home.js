@@ -1,26 +1,42 @@
 const play = document.getElementById("log");
-const sign = document.getElementById("no-log");
+//const sign = document.getElementById("no-log");
 const span = document.getElementById("span");
 const user = document.getElementById("user");
 const pass = document.getElementById("pass");
 const span1 = document.getElementById("span-1");
-let userValue = user.value;
-let passValue = pass.value;
+const ah = document.getElementById("ah");
+const nam = "owner";
+const word = "iamowner";
 
 play.addEventListener('click', function() {
-    location.href = "play-screen.html";
-    console.log(userValue, passValue);
+    let userValue = user.value.toLowerCase();
+    let passValue = pass.value.toLowerCase();
+
+    if (userValue == nam && passValue == word) {
+        location.href = "play-screen.html";
+    } else {
+        ah.style.display = "block";
+        console.log(userValue, passValue);
+    }
 })
 
-sign.addEventListener('click', function() {
+/*sign.addEventListener('click', function() {
     span.innerText = "Sign Up";
     sign.style.display = "none";
     span1.innerText = "Sign Up";
-})
+})*/
 
 pass.addEventListener("keyup", function(event) {
     if (event.key === "Enter") {
-        location.href = "play-screen.html";
+        let userValue = user.value.toLowerCase();
+        let passValue = pass.value.toLowerCase();
+
+        if (userValue == nam && passValue == word) {
+            location.href = "play-screen.html";
+        } else {
+            ah.style.display = "block";
+            console.log(userValue, passValue);
+        }
     }
 })
 
