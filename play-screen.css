@@ -8,6 +8,10 @@ body {
     padding-top: 10vh;
 }
 
+html, body {
+    touch-action: none;
+}
+
 .button {
     background-color: transparent;
     color: darkslategray;
