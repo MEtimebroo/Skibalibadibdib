@@ -14,6 +14,7 @@ play.addEventListener('click', function() {
 
     if (userValue == nam && passValue == word) {
         location.href = "play-screen.html";
+        ah.style.display = "none";
     } else {
         ah.style.display = "block";
         console.log(userValue, passValue);
@@ -33,6 +34,7 @@ pass.addEventListener("keyup", function(event) {
 
         if (userValue == nam && passValue == word) {
             location.href = "play-screen.html";
+            ah.style.display = "none";
         } else {
             ah.style.display = "block";
             console.log(userValue, passValue);
